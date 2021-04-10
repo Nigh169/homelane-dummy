@@ -1,0 +1,636 @@
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: auto;
+  background-color: white;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: -.12px;
+font-weight: 500;
+display: block;
+padding: .8rem;
+line-height: 22px;
+color:
+#4a4a4a;
+font-size: 13px;
+}
+
+
+
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.a{
+
+  
+  margin-top: 8px;
+  margin-bottom: -10px;
+}
+
+.a a{
+
+  text-decoration:none;
+  color: black;
+}
+.a a:hover{
+  color: red;
+  cursor:pointer;
+
+}
+
+
+
+.s{
+  display: flex;
+  white-space: nowrap;
+   margin-top: 14px;
+   font-size: 13px;
+
+}
+.s a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.s a:hover{
+
+color: red;
+cursor: pointer;
+
+}
+
+
+.r{
+
+
+font-size: 13px;
+font-family: sans-serif;
+line-height: 49px;
+display:inline-flex;
+}
+.b{
+  margin-top:-18px;
+}
+.o{
+
+font-family:Comic Sans MS, Comic Sans, cursive;
+margin-top: -550px;
+padding-left: 50px;
+
+}
+
+
+.d li {
+  
+  list-style: none;
+}
+
+.d{
+  display: flex;
+  margin-bottom: 34px;
+}
+
+
+
+.lists{
+  margin-top: 195px;
+  margin-left: 15px;
+}
+
+.im{
+  padding-left: 300px;
+  background-color: whitesmoke;
+  display: flex=1;
+  list-style: none;
+
+
+}
+.vl {
+  border-left: 2px solid grey;
+  height: 10px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+
+.all{
+ 
+ 
+  display: flex;
+  
+  border-left:1px solid #ccc;
+  margin-left: 40px;
+  height: 60px;
+  margin-top: 3px;
+}
+ 
+
+
+.total{
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.text{
+  padding-left: 50px;
+  
+}
+
+.t0{
+  padding-left:100px;
+  margin-top: 10px;
+}
+.t1{
+  padding-left:40px;
+  margin-top: 10px;
+}
+
+
+.t2{
+  padding-left:40px;
+  margin-top: 10px;
+}
+
+.t3{
+  padding-left:40px;
+  margin-top: 10px;
+
+}
+
+.middld1{
+ 
+  
+  float: right;
+}
+
+.txt{
+ padding-left: 120px;
+
+ display: inline-block;
+}
+
+.ragi{
+  padding-left: 150px;
+
+}
+.head{
+  display: flex;
+  padding-left: 130px;
+}
+
+ 
+.dog{
+margin-right: 50px;
+}
+
+.videospop{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.svgimagessid{
+  z-index: -1;
+}
+
+
+
+
+.svg{
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+#homeVideo button.btn.btn-default {
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  z-index: 5;
+  color: white;
+}
+
+
+
+.img
+{
+  
+padding-left: 80px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(1);
+}
+
+.img:hover{
+  
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0);
+}
+
+.all-img{
+  display: flex;
+}
+
+.sec{
+ display: flex;
+ text-align: center;
+ 
+}
+
+.z{
+  display: flex;
+}
+.section{
+
+  display: flex;
+  padding-left: 80px;
+}
+
+.section2{
+  padding-left: 80px;
+
+  color:
+#222222;
+font-size: 18px;
+letter-spacing: 0;
+line-height: 22px;
+}
+.y{
+  display: flex;
+}
+
+
+.sec4{
+ margin-top: 70px;
+
+}
+
+
+
+
+
+.f{
+  display: flex;
+}
+
+
+
+
+/* client logo slider */
+
+
+
+
+
+
+
+
+ .nav {
+background-color: coral;
+overflow:hidden;}
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 20px;}
+ 
+  .nav a:hover {
+    background-color: white;
+    color: black;}
+  
+  /* .nav a.all { */
+    /* background-color: #4CAF50; */
+    /* color: white;} */
+
+
+    .backgr{ 
+      margin-top: 5%;
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.0)),url("int des.jpg") ;
+      background-repeat: repeat-x;
+      background-size: cover;
+      
+      
+      height:600px;}
+    
+    .intro{
+      
+      color: blacK;
+      font-weight: 500;
+      padding-left: 200px;
+      padding-top: 250px;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 2px cornsilk;}
+    
+
+.head{
+  text-align: left;
+  margin-top: 1%;
+  position: relative;
+}
+
+
+.head1{
+
+  text-align:left;
+  
+}
+
+.end {
+  
+  background-color: #fd0000;
+  border: none;
+  color:black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 80px;
+  margin-left:800px ;
+  opacity: 1;
+  transition: 0.3s;
+}
+.end:hover {opacity: 1.0}
+
+.MK img{
+
+  
+width: 400px;
+height: 300px;
+padding:10px;
+border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-fluid{
+  padding:5px;
+  min-height: 100%!important;
+  border-radius: 30px;
+ 
+    
+  
+  
+    /* visibility: hidden; */
+  }
+
+
+
+
+
+
+
+
+
+
+.bot{
+ justify-content: space-around;
+  padding-left: 250px;
+}
+
+.ib{
+padding-left: 150px;
+}
+
+.ib1{
+  display: flex;
+}
+
+.bo{
+  padding-left: 150px;
+}
+.bo a{
+
+  text-decoration:none;
+  color: black;
+}
+.bp a:hover{
+  color: red;
+  cursor:pointer;
+
+}
+
+
+.w{
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- For Animation on Scroll ---------------- */
+.slideanim {
+  visibility:hidden;
+  visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {visibility: visible; animation:slide 1s;}
+.slideanim::after {
+  /* useful when its child elements are float:left; */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(50%);
+  } 
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  } 
+}
+
+
+.videospop img{
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- For the Responsive Image Grid. For details visit: www.menucool.com/ui/use-image-sprites-in-responsive-image-grids ---------------- */
+
+#rig {
+	max-width:1200px;
+	margin:0 auto; /*center aligned*/
+	padding:0;
+	font-size:0; /* Remember to change it back to normal font size if have captions */
+	list-style:none;
+	background-color:none;
+}
+#rig li {
+	display:inline-block;
+	*display:inline;/*for IE6 - IE7*/
+	width:25%;
+	vertical-align:middle;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+/* If have the image layer */
+.rig-img {
+	display:block;
+	border:none;
+	width:300px;
+	height:90px;
+    padding-top:-83.461538%;
+    background-size:cover;
+  background-color:white;
+  padding-left: 20px;
+  
+  
+    background-repeat:no-repeat;
+	position:relative; /* Make its pseudo :after to be relative to it. */
+}
+.rig-img:after{
+	position:absolute;
+	top:20px;right:20px;bottom:20px;left:20px;
+	border:1px solid #fff;
+	content:'+';
+	color:whitesmoke;
+	padding-top:14%;
+	font-size:30px;
+	opacity:0;
+	filter:alpha(opacity=1);
+	transition:all 0.3s;
+	transform:scale(0);
+}
